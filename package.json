@@ -1,7 +1,6 @@
 {
   "name": "lit-hollowdb-arweave",
   "version": "0.1.0",
-  "private": true,
   "repository": "https://github.com/merdoyovski/lit-hollowdb-demo",
   "author": "FirstBatch Team <dev@firstbatch.xyz>",
   "contributors": [
