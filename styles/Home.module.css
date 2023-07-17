@@ -8,18 +8,19 @@
   width: 88%;
   margin-bottom: 128px;
 }
-.content h1, .content h2{
+.content h1,
+.content h2 {
   color: white;
 }
-.header{
+.header {
   padding-top: 24px;
 }
 
-.dropzone{
+.dropzone {
   color: white;
   width: 256px;
-  background: #1B1B1B;
-  border: #AAAAAA 2px dashed;
+  background: #1b1b1b;
+  border: #aaaaaa 2px dashed;
   padding: 12px;
   justify-content: center;
   display: flex;
@@ -28,19 +29,19 @@
   border-radius: 8px;
   /* margin: auto; */
 }
-.link{
+.link {
   color: #130430;
   border-bottom: 1px solid;
 }
-.link:hover{
-  color:#9E77F3;
+.link:hover {
+  color: #9e77f3;
 }
 
-.dropzoneicon svg{
+.dropzoneicon svg {
   width: 32px;
   margin: auto;
 }
-.footer{
+.footer {
   position: fixed;
   bottom: 0;
   left: 0;
@@ -48,41 +49,42 @@
   font-size: 12px;
   padding: 8px;
 }
-.footer_title{
+.footer_title {
   font-weight: bold;
-  color: #9E77F3;
+  color: #9e77f3;
 }
-.footer ul{
+.footer ul {
   margin-top: 0;
   list-style-type: none;
   padding-left: 0;
 }
-.footer ul li a{
-  color: #9E77F3;
+.footer ul li a {
+  color: #9e77f3;
   border-bottom: 1px solid;
 }
-.footer ul li a:hover{
+.footer ul li a:hover {
   color: white;
 }
-.step{
+.step {
   color: white;
   margin-bottom: 32px;
   margin-top: 32px;
+  font-weight: 500;
 }
-.step > div:nth-child(2){
+.step > div:nth-child(2) {
   margin-top: 12px;
   font-size: 14px;
-  color: #8159d9;
+  color: white;
 }
-.text > a{
+.text > a {
   border-bottom: 1px solid white;
 }
-.text{
+.text {
   font-size: 14px;
   color: #8159d9;
 }
 
-.done{
+.done {
   color: white;
   border-radius: 8px;
   background: #8159d9;
@@ -92,24 +94,24 @@
   overflow: auto;
 }
 
-.done > div:nth-child(3){
+.done > div:nth-child(3) {
   font-size: 12px;
   padding: 4px;
 }
 
-.btn{
+.btn {
   background: transparent;
-  border: 1px solid #E7DDFF;
-  color: #E7DDFF;
+  border: 1px solid #e7ddff;
+  color: #e7ddff;
   padding: 8px 12px;
   border-radius: 8px;
   cursor: pointer;
 }
-.btn:hover{
+.btn:hover {
   color: white;
   border: 1px solid white;
 }
-.code{
+.code {
   font-size: 10px;
   width: 100%;
 }
