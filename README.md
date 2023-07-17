@@ -1,15 +1,19 @@
-# How to use Bundlr/Arweave with Lit
+# How to use HollowDB with Lit Protocol
 
-This is an example project of showing you how to use bundlr/arweave with lit in the browser and on the backend
+This is an example project using Lit Protocol and HollowDB together to create a two-sided encryption flow.
 
-Demo here: https://lit-bundlr.herokuapp.com/
+Using Lit Protocol, any data can be encrpyted and can only be decrypted if certain access control conditions are met. See the [lit protocol docs](https://developer.litprotocol.com/SDK/Explanation/encryption) for more information.
 
-# Learn how it works technically
+On the otherside, HollowDB allows you to store your data permamently and privately. Unlike Lit Protocol, HollowDB hides your address information and lets you update the data only by providing ZK-proofs. Read more about HollowDB [here](https://docs.hollowdb.xyz/).
 
-- Follow each step in `pages/index.js` 
-  > eg. [Step 1](https://github.com/LIT-Protocol/lit-bundlr-example/blob/2d34f639ae196f18aa0eb5168c01342ceb708fc6/pages/index.js#L372) -> calls [onDropKey()](https://github.com/LIT-Protocol/lit-bundlr-example/blob/2d34f639ae196f18aa0eb5168c01342ceb708fc6/pages/index.js#L377) function
+Combining HollowDB with Lit Protocol gives you a two-sided encryption where both your identity and data is safe and encrypted.
 
-- Arweave APIs `pages/api/arweave`
-  > `/pages/api/arweave/index.js` returns wallet address
-  > `/pages/api/arweave/gastimate.js` returns the cost to upload
-  > `/pages/api/arweave/upload.js` sign and upload and return transaction ID
+## Prerequisite
+
+An HollowDB server must be live with a Bundlr funded account and a HollowDB contract deployed.
+
+- Host a HollowDB server. You can find the HollowDB Express server repo [here](https://github.com/firstbatchxyz/hollowdb-express/tree/master)
+- Check this [link](https://docs.hollowdb.xyz/hollowdb/contract-operations) to see how to deploy an HollowDB contract.
+- To fund a Bundlr node, refer to their [docs](https://docs.bundlr.network/developer-docs/quickstart#3-fund-your-node-to-pay-for-uploads).
+
+Don't forget to put your wallet inside the HollowDB server after you fund a Bundlr node.
