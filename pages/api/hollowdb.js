@@ -24,7 +24,7 @@ export function put(
     value: data,
   };
   console.log("payload: ", payload);
-  return axiosClient.post("/post/encrypt", payload);
+  return axiosClient.post("/put", payload);
 }
 
 export function get(key) {
